@@ -1,0 +1,14 @@
+@use './reset';
+@use './base';
+@use './result';
+@use './form';
+
+@media screen and (max-width: 472px){
+    html{
+        font-size: 15px;
+    }
+
+    .main{
+        width: clamp(300px, 80%, 400px);
+    }
+}

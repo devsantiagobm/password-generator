@@ -1,0 +1,30 @@
+.result{
+    width: 100%;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-form);
+    gap: 24px;
+    margin: 0 0 24px;
+
+    &__input{
+        font-size: 1.2rem;
+        color: var(--color-button);
+        width: 100%;
+        &::selection{
+            color: var(--color-button);
+            background-color: var(--bg-form);
+        }
+    }
+
+    &__icon{
+        color: var(--color-button);
+        cursor: pointer;
+        transition: color .2s ease;
+        font-size: 20px;
+
+        &:hover{
+            color: var(--color-form);
+        }
+    }
+}
